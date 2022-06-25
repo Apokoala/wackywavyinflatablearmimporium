@@ -8,7 +8,7 @@ body{
 }
 
 ul{
-
+    color: #FFA71A;
 
 }
 
@@ -18,13 +18,19 @@ li{
 }
 
 header{
-    background-color: #FFA71A;
-    height:100px;
+    /* background-color: #FFA71A; */
+    height: 300px;
+    text-align: center;
 }
-
+header section{
+    background-color:#FFA71A;
+}
 h1{
-    float: left;
-    text-alight: center;
+    
+    /* float: left; */
+    text-align: center;
+    font-weight: 900;
+    font-size:80px;
     /* margin-left: 90px; */
     /* float were forcing it to the left and allowing everything
     else to move around it */
@@ -32,19 +38,23 @@ h1{
 }
 
 nav li{
-    /* display:inline-block; */
-
-
+    display:inline-block;
+    /* margin-left: 70; */
+    /* text-align:center; */
+    /* margin-left: 250px; */
 }
 
 nav li a {
-    text-decoration: none;
+    text-decoration:underline;
     /* removes the default decoration for the links */
-    /* color: gray; */
-    /* font-weight:900; */
-    /* font-size:20px; */
-    /* cursor:grab; */
+    color:#FFA71A;
+    font-weight:900;
+    font-size:40px;
+    cursor:grab;
+    margin-left:80px;
+    text-align: center;
 
+    
 }
 
 nav li a:hover{
@@ -54,8 +64,10 @@ nav li a:hover{
 
 main{
     width: 960px;
-    margin: 30px auto;
+    margin: 0px auto;
     min-height: 700px;
+    color:white;
+    /* text-align: ; */
 }
 
 #hero{
@@ -66,12 +78,20 @@ main{
 }
 section{
     /* text-align: left; */
+    border:#FFA71A;
+    border-radius: 5px;
+    text-align: center;
+
+    
 }
 
 footer{
     text-align: center;
     background-color: #FFA71A;
     height: 100px;
+    margin-top: 200;
+    margin-top: 40px;
+    padding-top: 10px;
 }
 
 main li:last-child{
