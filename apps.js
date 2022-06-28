@@ -13,7 +13,7 @@ let firstName = prompt('Give me your name!');
 
 let message ='';
 
-if (firstName.includes (1)||(2)||(3)||(4)||(5)||(6)||(7)||(8)||(9)||(0)){
+if (firstName.includes (1||2||3||4||5||6||7||8||9||0)){
     // console.log("I see you have silent numbers in your name, "+ firstName +" tell your father his electric cars suck");
     message = "I see you have silent numbers in your name, "+ firstName +", tell your father his electric cars suck";
 }   else if (firstName.includes("m")){
