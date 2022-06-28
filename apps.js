@@ -26,6 +26,10 @@ if (firstName.includes (1)||(2)||(3)||(4)||(5)||(6)||(7)||(8)||(9)||(0)){
 
 document.write(message);
 
+let result = confirm("Are you sure you want to be here?");
+let message2 = result ? 'Nice...' : 'I didn\'t want you here, anyway';
+
+alert(message2)
 // // output to the console some value
 // console.log('hello, ' + firstName)
 // console.log();
